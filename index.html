@@ -12,9 +12,16 @@
     <link rel="modulepreload" crossorigin href="./assets/@vue/@vue.f63a2794.js">
     <link rel="modulepreload" crossorigin href="./assets/vendor/vendor.0d6479a5.js">
     <link rel="stylesheet" href="./assets/index-7bc1c9a8.css">
+    <style>
+    </style>
   </head>
   <body>
     <div id="app"></div>
-    
+    <script>
+      const app = document.querySelector('#app')
+      const github = document.querySelector('.github')
+      // 删除 github 元素
+      app.removeChild(github)
+    </script>
   </body>
 </html>
