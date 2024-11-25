@@ -18,10 +18,12 @@
   <body>
     <div id="app"></div>
     <script>
-      const app = document.querySelector('#app')
-      const github = document.querySelector('.github')
-      // 删除 github 元素
-      app.removeChild(github)
+       setTimeout(() => {
+          const app = document.querySelector('#app')
+          const github = document.querySelector('.github')
+          // 删除 github 元素
+          app.removeChild(github)
+        }, 2000)
     </script>
   </body>
 </html>
